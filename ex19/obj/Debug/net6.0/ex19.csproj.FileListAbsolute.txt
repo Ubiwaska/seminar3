@@ -1,0 +1,15 @@
+/Users/polinagalkina/Desktop/3/ex19/bin/Debug/net6.0/ex19
+/Users/polinagalkina/Desktop/3/ex19/bin/Debug/net6.0/ex19.deps.json
+/Users/polinagalkina/Desktop/3/ex19/bin/Debug/net6.0/ex19.runtimeconfig.json
+/Users/polinagalkina/Desktop/3/ex19/bin/Debug/net6.0/ex19.dll
+/Users/polinagalkina/Desktop/3/ex19/bin/Debug/net6.0/ex19.pdb
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.csproj.AssemblyReference.cache
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.AssemblyInfoInputs.cache
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.AssemblyInfo.cs
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.csproj.CoreCompileInputs.cache
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.dll
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/refint/ex19.dll
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.pdb
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ex19.genruntimeconfig.cache
+/Users/polinagalkina/Desktop/3/ex19/obj/Debug/net6.0/ref/ex19.dll
