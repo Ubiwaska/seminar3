@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/polinagalkina/Desktop/3/1/1.csproj",
+      "projectUniqueName": "/Users/polinagalkina/Desktop/3/2ex21/1.csproj",
       "projectName": "1",
-      "projectPath": "/Users/polinagalkina/Desktop/3/1/1.csproj",
+      "projectPath": "/Users/polinagalkina/Desktop/3/2ex21/1.csproj",
       "packagesPath": "/Users/polinagalkina/.nuget/packages/",
-      "outputPath": "/Users/polinagalkina/Desktop/3/1/obj/",
+      "outputPath": "/Users/polinagalkina/Desktop/3/2ex21/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/polinagalkina/.nuget/NuGet/NuGet.Config"

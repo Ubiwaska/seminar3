@@ -1,29 +1,37 @@
 ﻿//Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3д пространстве.
 
 Console.Clear();
-int x1 = InputNumber("Введите x1: ");
-int x2 = InputNumber("Введите x2: ");
-int y1 = InputNumber("Введите y1: ");
-int y2 = InputNumber("Введите y2: ");
-int z1 = InputNumber("Введите z1: ");
-int z2 = InputNumber("Введите z2: ");
+int x1 = InputNumber("Enter x1: ");
+int y1 = InputNumber("Enter y1: ");
+int z1 = InputNumber("Enter z1: ");
 
-Console.WriteLine($"Расстояние между точками({x1}, {x2}, {y1}, {y2}, {z1}, {z2}) {CalculateDistance(x1, x2, y1, y2, z1, z2)}");
+int x2 = InputNumber("Enter x2: ");
+int y2 = InputNumber("Enter y2: ");
+int z2 = InputNumber("Enter z2: ");
+
+Console.WriteLine($"The distance between points ({x1}, {y1}, {z1}) and ({x2}, {y2}, {z2}) is equal to {CalculateDistance(x1, y1, z1, x2, y2, z2)}");
+
 
 static int InputNumber(string message)
 {
-    try
+    int coordinate;
+    while (true)
     {
+
         Console.Write(message);
-        return (int.Parse(Console.ReadLine() ?? ""));
-    }
-    catch (Exception exc)
-    {
-        Console.WriteLine($"Ошибка ввода данных! {exc.Message}");
-        return 0;
+        if (int.TryParse(Console.ReadLine(), out coordinate))
+        {
+            return coordinate;
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Error!: An integer number was not entered. Try again! ");
+        }
+
     }
 }
-static double CalculateDistance(int x1, int x2, int y1, int y2, int z1, int z2)
+static double CalculateDistance(int x1, int y1, int z1, int x2, int y2, int z2)
 {
     return Math.Sqrt(Math.Pow(x1 - x2, 2) + (Math.Pow(y1 - y2, 2)) + (Math.Pow(z1 - z2, 2)));
 }
